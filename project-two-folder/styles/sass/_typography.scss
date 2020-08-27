@@ -1,11 +1,13 @@
 // TYPOGRAPHY
-$primary: #B3EB95;
-$secondary: #CCC;
-$baseFont:'Josefin Sans', sans-serif;
+$primaryGreen: #074115;
+$secondaryGreen: #0E902D;
+$primaryYellow:#f8E71C
+$baseFont'Josefin Sans', sans-serif;
 $secondaryFont: 'Roboto', sans-serif;
 
 
 h1 {
+   $baseFont:bold,80px;
    font-size: 52px;
    margin: 0;
 }
