@@ -14,19 +14,27 @@ body {
 }
 .logo { 
    display: inline-block;
-   font-family: $baseFont;
+   font-family:$baseFont;
    font-size: 32px;
    padding-left: 50px;
    width: 40%;
 }
 
-ul a { 
-   display: inline;
-   width: 50%;
-   text-decoration: none;
-   padding-left: 60px;
+.headerDiv { 
+   display: inline-block;
+   width:calc(100% / 2 -120px);
+
 }
 
+ul { 
+   text-decoration: none;
+   padding-left: 60px;
+
+   a { 
+      text-decoration: none;
+      padding-left: 60px;
+   }
+}
 
 h1 { 
    font-size: 200px;

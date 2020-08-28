@@ -257,9 +257,17 @@ body {
   width: 40%;
 }
 
+.headerDiv {
+  display: inline-block;
+  width: calc(100% / 2 -120px);
+}
+
+ul {
+  text-decoration: none;
+  padding-left: 60px;
+}
+
 ul a {
-  display: inline;
-  width: 50%;
   text-decoration: none;
   padding-left: 60px;
 }
