@@ -235,18 +235,31 @@ html {
   overflow: hidden;
 }
 
-h1 {
-  font-weight: 400;
-  font-family: "Josefin Sans", sans-serif;
-  color: blue;
+header {
+  display: inline-block;
 }
 
-body {
-  background: #ffffff;
-  color: black;
-  height: 90vh;
-  font-family: "Josefin Sans", sans-serif;
-  margin: 0 auto;
+.headerDiv {
+  display: inline;
+}
+
+.imgDiv {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+}
+
+.headerImg {
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+.headerImg2 {
+  position: absolute;
+  left: 1200px;
+  top: 200px;
 }
 
 .logo {
@@ -257,25 +270,56 @@ body {
   width: 40%;
 }
 
-.headerDiv {
-  display: inline-block;
-  width: calc(100% / 2 -120px);
-}
-
 ul {
-  text-decoration: none;
-  padding-left: 60px;
-}
-
-ul a {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   text-decoration: none;
   padding-left: 60px;
 }
 
 h1 {
-  font-size: 200px;
+  position: relative;
+  font-size: 188px;
   font-weight: 400;
   font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+  width: 50%;
+  left: 500px;
+}
+
+.primaryYellow {
+  color: #f8E71C;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'East Sea Dokdo', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #ffffff;
   color: black;
+  height: 90vh;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+  padding-left: 60px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */

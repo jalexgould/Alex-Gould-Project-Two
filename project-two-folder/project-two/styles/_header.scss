@@ -1,6 +1,59 @@
+
+// header
+header { 
+   display: inline-block;
+}
+
+.headerDiv { 
+   display: inline;
+}
+.imgDiv { 
+   position: absolute;
+   width: 100%;
+   top: 200px;
+}
+
+.headerImg { 
+   background-size: cover;
+   width: 100%;
+   height: 70vh;
+   position: relative;
+}
+
+.headerImg2 { 
+   position: absolute;
+   left: 1200px;
+   top: 200px;
+
+   
+}
+
+.logo { 
+   display: inline-block;
+   font-family:$baseFont;
+   font-size: 32px;
+   padding-left: 50px;
+   width: 40%;
+}
+
+ul { 
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   text-decoration: none;
+   padding-left: 60px;  
+}
+
 h1 { 
+   position: relative;
+   font-size: 188px;
    font-weight: 400;
    font-family: $baseFont;
-   color: blue;
+   color: #ffffff;
+   width: 50%;
+   left: 500px;
+}
+.primaryYellow {
+   color:$primaryYellow;
 
 }
