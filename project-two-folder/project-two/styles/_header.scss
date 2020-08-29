@@ -1,6 +1,6 @@
 // header
 header { 
-   display: flex;
+   position: relative;
    background-image: url(../planted-final-assets/home-image-1.jpg);
    display: inline-block;
    background-repeat: no-repeat;
@@ -8,7 +8,8 @@ header {
 
 .headerImg2 { 
    position: absolute;
-   left: 748px;
+   overflow: visible;
+   left: 726px;
    top: 145px;   
 }
 
@@ -31,14 +32,15 @@ header {
    float: right;
    padding-left: 60px;  
    padding-top: 20px;
-}
 
-ul { 
+
+   ul { 
    width: 60%;
    flex-direction: row;
    list-style-type: none;
    text-decoration: none;
    padding-left: 60px;  
+}
 }
 
 ul a { 

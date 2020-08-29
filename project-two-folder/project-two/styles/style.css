@@ -236,9 +236,7 @@ html {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
   background-image: url(../planted-final-assets/home-image-1.jpg);
   display: inline-block;
   background-repeat: no-repeat;
@@ -246,7 +244,8 @@ header {
 
 .headerImg2 {
   position: absolute;
-  left: 748px;
+  overflow: visible;
+  left: 726px;
   top: 145px;
 }
 
@@ -271,7 +270,7 @@ header {
   padding-top: 20px;
 }
 
-ul {
+.nav ul {
   width: 60%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -314,13 +313,33 @@ h1 {
 }
 
 .what-is-div {
-  text-align: center;
+  display: inline-block;
+  height: 72vh;
+  position: relative;
   background-color: #F0EFED;
-  height: 40vh;
+  text-align: center;
+  padding-top: 100px;
 }
 
 .what-is-div h2 {
-  padding-left: 100px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 56.3px;
+  line-height: 1.3px;
+}
+
+.findOutMore {
+  position: relative;
+  padding-top: 20px;
+  height: 60px;
+  width: 200px;
+  background-color: #0E902D;
+  display: inline-block;
+}
+
+.findOutMore a {
+  padding: 0px 15px;
+  color: white;
+  font-size: 20px;
 }
 
 html {

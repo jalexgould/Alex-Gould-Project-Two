@@ -4,12 +4,32 @@
 }
 
 .what-is-div { 
+   display: inline-block;
+   height: 72vh;
+   position: relative;
+   background-color: #F0EFED;
    text-align: center;
-   background-color:#F0EFED;
-   height: 40vh;
+   padding-top: 100px;
 
    h2 { 
-      padding-left: 100px;
+   font-family: $baseFont;
+   font-size: 56.3px;
+   line-height:1.3px;
+}
+}
+
+.findOutMore { 
+   position: relative;
+   padding-top: 20px;
+   height: 60px;
+   width: 200px;
+   background-color: #0E902D;
+   display: inline-block;
+
+   a {
+   padding:0px 15px;
+   color: white;   
+   font-size:20px;
 
    }
 }
