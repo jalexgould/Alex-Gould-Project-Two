@@ -19,9 +19,13 @@ body {
    height: 90vh;
    font-family:$baseFont;
    margin: 0 auto;
-
 }
 
+p { 
+   position: relative;
+   width: 50%;
+   text-align: center;
+}
 
 a { 
    text-decoration: none;
