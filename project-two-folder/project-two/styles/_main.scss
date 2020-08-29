@@ -1,0 +1,15 @@
+.what-is-section { 
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.what-is-div { 
+   text-align: center;
+   background-color:#F0EFED;
+   height: 40vh;
+
+   h2 { 
+      padding-left: 100px;
+
+   }
+}
