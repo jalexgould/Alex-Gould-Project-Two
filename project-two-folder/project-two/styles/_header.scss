@@ -21,6 +21,11 @@ header {
    width: 10%;
 }
 
+.logo:hover,
+.logo:focus{
+   color: yellow;
+}
+
 .nav { 
    width: 90%;
    float: right;
@@ -37,8 +42,12 @@ ul {
 }
 
 ul a { 
-   
    color: white;
+}
+
+ul a:hover,
+ul a:focus {
+   color: yellow;
 }
 
 h1 { 
