@@ -11,13 +11,14 @@
    text-align: center;
    padding-top: 100px;
 
-   h2 { 
-   font-family: $baseFont;
+h2 { 
+   font-family:$baseFont;
    font-size: 56.3px;
    line-height:1.3px;
 }
 }
 .plantedP { 
+   font-size: 15px;
    left: 350px;
    margin-bottom: 50px;
 }
@@ -30,10 +31,17 @@
    background-color: #0E902D;
    display: inline-block;
 
+   &:focus, 
+   &:hover { 
+   color: #03651a;
+
+
+   }
+}
+
    a {
    padding:0px 15px;
    color: white;   
    font-size:20px;
 
-   }
 }

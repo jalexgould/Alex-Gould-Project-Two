@@ -297,7 +297,7 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
   color: #ffffff;
   width: 50%;
-  left: 400px;
+  left: 300px;
 }
 
 .primaryYellow {
@@ -328,6 +328,7 @@ h1 {
 }
 
 .plantedP {
+  font-size: 15px;
   left: 350px;
   margin-bottom: 50px;
 }
@@ -341,7 +342,11 @@ h1 {
   display: inline-block;
 }
 
-.findOutMore a {
+.findOutMore:focus, .findOutMore:hover {
+  color: #03651a;
+}
+
+a {
   padding: 0px 15px;
   color: white;
   font-size: 20px;
@@ -366,6 +371,10 @@ body {
   margin: 0 auto;
 }
 
+div + .findOutmore:hover {
+  background-color: #016519;
+}
+
 p {
   position: relative;
   width: 50%;
@@ -374,9 +383,8 @@ p {
 
 a {
   text-decoration: none;
-  color: black;
-  font-size: 35px;
-  padding-left: 60px;
+  color: #FFF;
+  font-size: 25px;
 }
 
 img {

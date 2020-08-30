@@ -21,6 +21,10 @@ body {
    margin: 0 auto;
 }
 
+div + .findOutmore:hover{ 
+   background-color:#016519;
+}
+
 p { 
    position: relative;
    width: 50%;
@@ -29,9 +33,9 @@ p {
 
 a { 
    text-decoration: none;
-   color: rgb(0, 0, 0);
-   font-size: 35px;
-   padding-left: 60px;
+   color:#FFF;
+   font-size: 25px;
+
 }
 
 img { 
