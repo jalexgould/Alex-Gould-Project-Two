@@ -2,6 +2,7 @@
 @import './variables';
 @import './header';
 @import './main';
+@import './footer';
 
 
 // general
@@ -44,6 +45,6 @@ img {
 
 .wrapper{ 
    max-width:1300px; ;
-   width: 90%;
+   width: 100%;
    margin: 0 auto;
 }
