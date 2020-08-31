@@ -237,16 +237,18 @@ html {
 
 header {
   position: relative;
+  width: 100%;
   background-image: url(../planted-final-assets/home-image-1.jpg);
-  display: inline-block;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .headerImg2 {
   position: absolute;
+  width: 40%;
   overflow: visible;
-  left: 726px;
-  top: 145px;
+  left: 1150px;
+  top: 150px;
 }
 
 .logo {
@@ -350,6 +352,124 @@ a {
   padding: 0px 15px;
   color: white;
   font-size: 20px;
+}
+
+.squareContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  height: 100vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 60em) {
+  .squareContainer {
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+    background-color: #FFF;
+  }
+}
+
+.grid-1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+@media screen and (max-width: 60em) {
+  .grid-1 {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 5;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+}
+
+.grid-2 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+@media screen and (max-width: 60em) {
+  .grid-2 {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 5;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    left: 100px;
+  }
+}
+
+.grid-3 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+@media screen and (max-width: 60em) {
+  .grid-3 {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 5;
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+}
+
+.grid-4 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 5;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+@media screen and (max-width: 60em) {
+  .grid-4 {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 5;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+}
+
+.fourSecDiv {
+  width: 100%;
+}
+
+.divImg1,
+.divImg2 {
+  width: 40%;
+}
+
+.divImg2 {
+  margin-left: 60%;
+}
+
+.readMore {
+  position: relative;
+  text-align: center;
+  margin: 0 10px;
+  padding-top: 12px;
+  height: 40px;
+  width: 130px;
+  background-color: #0E902D;
+  display: inline-block;
+}
+
+.readMore a {
+  font-size: 15px;
 }
 
 html {

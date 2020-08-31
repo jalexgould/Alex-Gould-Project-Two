@@ -1,16 +1,18 @@
 // header
 header { 
    position: relative;
+   width: 100%;
    background-image: url(../planted-final-assets/home-image-1.jpg);
-   display:inline-block;
+   background-size: cover;
    background-repeat: no-repeat;
 }
 
 .headerImg2 { 
    position: absolute;
+   width: 40%;
    overflow: visible;
-   left: 726px;
-   top: 145px;   
+   left: 1150px;
+   top: 150px;   
 }
 
 .logo { 
