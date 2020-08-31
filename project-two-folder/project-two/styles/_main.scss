@@ -237,12 +237,38 @@ h2 {
    font-size: 15px;
 }
 
-
-.wideImg { 
-   display:block;
-   width: 100%;
+.second-Main{
+   width: 100vw;
+   background-color:#F0EFED;
 }
 
-aside { 
-   text-align: center;
+.wideImg img { 
+   width: 100vw;
+   height:100% ;
+}
+
+.founder-img { 
+   display:inline-block;
+   margin-left: 100px;
+   margin-bottom: 50px;
+   margin-top: 50px;
+
+   img { 
+      box-shadow: 10px 10px 4px $primaryYellow;
+
+   }
+}
+
+.founder-text { 
+   margin-left: 100px;
+}
+
+.founder-text p { 
+   width: 30%;
+   font-size: 15px;
+   text-align: left;
+}
+
+.founder-text h3 { 
+   font-size: 30px;
 }
