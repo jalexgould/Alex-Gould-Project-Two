@@ -316,7 +316,7 @@ h1 {
 
 .what-is-div {
   display: inline-block;
-  height: 72vh;
+  height: 65vh;
   position: relative;
   background-color: #F0EFED;
   text-align: center;
@@ -331,7 +331,7 @@ h1 {
 
 .plantedP {
   font-size: 15px;
-  left: 350px;
+  left: 485px;
   margin-bottom: 50px;
 }
 
@@ -446,6 +446,22 @@ a {
 
 .fourSecDiv {
   width: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.grid-2,
+.grid-2 p {
+  text-align: start;
+}
+
+.grid-3,
+.grid-3 p {
+  text-align: end;
+}
+
+.grid-3 p {
+  left: 480px;
 }
 
 .divImg1,
